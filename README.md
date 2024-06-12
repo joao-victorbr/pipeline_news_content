@@ -11,14 +11,13 @@ After cloning the repository in a local environment, enter the "pipeline_news_co
 At this moment, a json file is created in the "news_content_content_collect/data_extract" folder with all the news present on the first search page of the CNN's site.
 
 ### Challenge instructions:
-Challenge - News Content Collect and Store
+#### Challenge - News Content Collect and Store
 Create a solution that crawls for articles from a news website, cleanses the response, stores in BigQuery (bonus) then makes it available to search via an API.
 
-Details
+#### Details
 Write an application to crawl an online news website, e.g. www.theguardian.com/au or www.bbc.com using a crawler framework such as [Scrapy] (http://scrapy.org/). You can use a crawl framework of your choice and build the application in Python.
 The appliction should cleanse the articles to obtain only information relevant to the news story, e.g. article text, author, headline, article url, etc. Use a framework such as Readability to cleanse the page of superfluous content such as advertising and html
 Store the data in BigQuery, for subsequent search and retrieval. Ensure the URL of the article is included to enable comparison to the original.
 
-
-Bonus
+#### Bonus
 Write an API that provides access to the content in BigQuery database. The user should be able to search for articles by keyword
